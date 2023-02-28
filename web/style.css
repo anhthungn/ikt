@@ -9,15 +9,8 @@ h1 {
 div{
     color: rgb(110, 160, 161);
 }
-a{
-    background-color: slategray;
-}
 .class2 p {
     background-color: rgb(252, 219, 169);
-}
-.class1 {
-    background-image: url(cat.jpg);
-    background-repeat: no-repeat;
 }
 #id1 {
     border-style: solid;
@@ -30,4 +23,23 @@ a{
 h1 {
     color: cornflowerblue;
     text-align: center;
+}
+a:link{
+    color: rgb(168, 76, 54);
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: black;
+}
+ul{
+    list-style-type: none
+}
+li{
+    display: inline;
+}
+a{
+    display: block;
 }
