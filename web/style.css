@@ -45,3 +45,26 @@ a{
     display: block;
 }
 */
+*{
+    margin: 0;
+}
+a{
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(59, 59, 59);
+    overflow: hidden;
+}
+li{
+    padding: 5px;
+    float: left;
+}
+li:hover{
+    background-color: rgb(151, 161, 255);
+}
+.dropdown-content{
+    display: none;
+}
